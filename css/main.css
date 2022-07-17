@@ -1,0 +1,47 @@
+body
+{
+    background-image: url(../images/Wave-100s-1366px\ \(2\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  right;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+
+}
+
+.text-color
+{
+    color: #653383
+}
+
+label
+{
+    display: block;
+    margin:10px 0 ;
+}
+button
+{
+    background-color: #653383;
+    width: 100px;
+}
+
+.bg-color
+{
+    background-color: #653383;
+}
+
+#Quiez,#inCorrect,#correct,#alert,#finish
+{
+    display: none;
+}
+
+@media screen and (max-width:800px) 
+ {
+    .media
+    {
+        width: 90% !important;
+        margin: auto !important;
+    }
+    
+}
